@@ -85,42 +85,42 @@ export const data = {
             }
             ]
         },
-    },
-    "end1": {
-        "title": "Escaping the Wolf",
-        "text": "\"Oh granny, I have to go badly. Let me go outside.\"\n\"Do it in the bed, my child!\"\n\"Oh no, granny, I want to go outside.\"\n\"All right, but make it quick.\"\n The werewolf attached a woolen rope to her foot and let her go outside.When the little girl was outside, she tied the end of the rope to a plum tree in the courtyard.The werewolf became impatient and said: \"Are you making a load out there? Are you making a load?\"\nWhen he realized that nobody was answering him, he jumped out of bed and saw that the little girl had escaped.He followed her but arrived at her house just at the moment she entered.",
-        "choices": [{
-            "text": "You're saved! Try again?",
-            "goto": "chapter1"
-        }]
-    },
-    "end2": {
-        "title": "Bang!",
-        "text": "The small girl smiles. One eyelid flickers.\n She whips a pistol from her knickers.\n She aims it at the creature's head,\nAnd bang bang bang, she shoots him dead.\nA few weeks later, in the wood, \nI came across Miss Riding Hood.\nBut what a change! No cloak of red, \nNo silly hood upon her head.\nShe said, \"Hello, and do please note\n My lovely furry wolfskin coat.\"",
-        "choices": [{
-            "text": "You're saved! Try again?",
-            "goto": "chapter1"
-        }]
-    },
-    "dead": {
-        "title": "Eaten",
-        "text": "The wolf jumped out of bed, jumped on top of poor Little Red Riding Hood, and ate her up.",
-        "choices": [{
-            "text": "Take another path?",
-            "goto": "chapter1"
+        "end1": {
+            "title": "Escaping the Wolf",
+            "text": "\"Oh granny, I have to go badly. Let me go outside.\"\n\"Do it in the bed, my child!\"\n\"Oh no, granny, I want to go outside.\"\n\"All right, but make it quick.\"\n The werewolf attached a woolen rope to her foot and let her go outside.When the little girl was outside, she tied the end of the rope to a plum tree in the courtyard.The werewolf became impatient and said: \"Are you making a load out there? Are you making a load?\"\nWhen he realized that nobody was answering him, he jumped out of bed and saw that the little girl had escaped.He followed her but arrived at her house just at the moment she entered.",
+            "choices": [{
+                "text": "You're saved! Try again?",
+                "goto": "chapter1"
+            }]
         },
-        {
-            "text": "The hunter walks by...",
-            "goto": "hunter"
+        "end2": {
+            "title": "Bang!",
+            "text": "The small girl smiles. One eyelid flickers.\n She whips a pistol from her knickers.\n She aims it at the creature's head,\nAnd bang bang bang, she shoots him dead.\nA few weeks later, in the wood, \nI came across Miss Riding Hood.\nBut what a change! No cloak of red, \nNo silly hood upon her head.\nShe said, \"Hello, and do please note\n My lovely furry wolfskin coat.\"",
+            "choices": [{
+                "text": "You're saved! Try again?",
+                "goto": "chapter1"
+            }]
         },
-        ]
-    },
-    "hunter": {
-        "title": "The Hunter",
-        "text": "As soon as the wolf had finished this tasty bite, he climbed back into bed, fell asleep, and began to snore very loudly. A huntsman was just passing by. He thought it strange that the old woman was snoring so loudly, so he decided to take a look. He stepped inside, and in the bed there lay the wolf that he had been hunting for such a long time \"He has eaten the grandmother, but perhaps she still can be saved. I won't shoot him,\" thought the huntsman. So he took a pair of scissors and cut open his belly. He had cut only a few strokes when he saw the red cap shining through. He cut a little more, and the girl jumped out and cried: \"Oh, I was so frightened! It was so dark inside the wolf's body!\" And then the grandmother came out alive as well. Then Little Red Riding Hood fetched some large heavy stones. They filled the wolf's body with them, and when he woke up and tried to run away, the stones were so heavy that he fell down dead.\nThe three of them were happy.The huntsman took the wolf's pelt. The grandmother ate the cake and drank the wine that Little Red Riding Hood had brought. And Little Red Riding Hood thought to herself: \"As long as I live, I will never leave the path and run off into the woods by myself if mother tells me not to.\"",
-        "choices": [{
-            "text": "You're saved! Try again?",
-            "goto": "chapter1"
-        },]
+        "dead": {
+            "title": "Eaten",
+            "text": "The wolf jumped out of bed, jumped on top of poor Little Red Riding Hood, and ate her up.",
+            "choices": [{
+                "text": "Take another path?",
+                "goto": "chapter1"
+            },
+            {
+                "text": "The hunter walks by...",
+                "goto": "hunter"
+            },
+            ]
+        },
+        "hunter": {
+            "title": "The Hunter",
+            "text": "As soon as the wolf had finished this tasty bite, he climbed back into bed, fell asleep, and began to snore very loudly. A huntsman was just passing by. He thought it strange that the old woman was snoring so loudly, so he decided to take a look. He stepped inside, and in the bed there lay the wolf that he had been hunting for such a long time \"He has eaten the grandmother, but perhaps she still can be saved. I won't shoot him,\" thought the huntsman. So he took a pair of scissors and cut open his belly. He had cut only a few strokes when he saw the red cap shining through. He cut a little more, and the girl jumped out and cried: \"Oh, I was so frightened! It was so dark inside the wolf's body!\" And then the grandmother came out alive as well. Then Little Red Riding Hood fetched some large heavy stones. They filled the wolf's body with them, and when he woke up and tried to run away, the stones were so heavy that he fell down dead.\nThe three of them were happy.The huntsman took the wolf's pelt. The grandmother ate the cake and drank the wine that Little Red Riding Hood had brought. And Little Red Riding Hood thought to herself: \"As long as I live, I will never leave the path and run off into the woods by myself if mother tells me not to.\"",
+            "choices": [{
+                "text": "You're saved! Try again?",
+                "goto": "chapter1"
+            },]
+        },
     },
 };
