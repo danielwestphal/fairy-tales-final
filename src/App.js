@@ -28,7 +28,7 @@ function App() {
     return <div>Loading...</div>;
   }
 
-  const currentChapterData = currentChapter in storyData.chapters ? storyData.chapters[currentChapter] : null;
+  const currentChapterData = (currentChapter in storyData.chapters) ? storyData.chapters.currentChapter : null;
 
   return (
     <div id='app'>
